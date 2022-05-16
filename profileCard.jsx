@@ -1,5 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 //Make sure to import tailwindcss components in global.css + required in _app.js
+import 'tippy.js/dist/backdrop.css';//npm install tippy
+import tippy from 'tippy.js';
 
 const profileCard = ({ profileData }) => {
     //Destructure all data needed to be displayed from user data object
